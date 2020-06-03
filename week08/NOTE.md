@@ -1,1 +1,43 @@
 # 每周总结可以写在这里
+## 选择器
+* 简单选择器
+    * *
+    * div svgla
+    * class
+    * 属性
+    * 伪类
+    * 伪元素
+* 复合选择器
+    * <简单选择器><简单选择器><简单选择器>
+    * *或者div必须写在最前面
+* 复杂选择器
+    * ·<复合选择器><Sp><复合选择器>
+    * <复合选择器>">”<复合选择器>
+    * <复合选择器>"~”<复合选择器>
+    * <复合选择器>"+"<复合选择器>
+    * <复合选择器>"|"<复合选择器>
+
+## 伪类
+* 链接/行为
+    * :any-link
+    * :link :visited
+    * :hover
+    * :active
+    * :focus
+    * :target
+* 树结构
+    * :empty
+    * :nth-child()
+    * :nth-last-child()
+    * :first-child
+    * :last-child
+    * :only-child
+* 逻辑性
+    * :not伪类
+    * :where
+    * :has
+* 伪元素
+    * ::before
+    * ::after
+    * ::firstline
+    * ::first-letter
