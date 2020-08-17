@@ -1,5 +1,5 @@
 {
-  "name": "consol",
+  "name": "publish-server2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ttys": "0.0.3"
+    "unzip": "^0.1.11",
+    "unzipper": "^0.10.11"
   }
 }
